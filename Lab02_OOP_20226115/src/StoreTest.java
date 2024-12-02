@@ -13,7 +13,7 @@ public class StoreTest {
       store.addDVD(dvd2);
       store.addDVD(dvd3);
 
-      // Display store content
+      // Display store content...
       System.out.println("\nStore inventory after adding DVDs:");
       store.displayStore();
 
