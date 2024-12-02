@@ -1,4 +1,4 @@
-public class DigitalVideoDisc { 
+public class DigitalVideoDisc {  
   // Instance variables
   private String title;
   private String category;
@@ -82,13 +82,14 @@ public class DigitalVideoDisc {
       this.id = nbDigitalVideoDiscs;
   }
 
+  // Match title
+  public boolean isMatch(String title) {
+      return this.title.equalsIgnoreCase(title);
+  }
+
   // toString method for easy representation of DVD
   @Override
   public String toString() {
-      return "DigitalVideoDisc [id=" + id + ", title=" + title 
-          + ", category=" + category 
-          + ", director=" + director 
-          + ", length=" + length 
-          + ", cost=" + cost + "]";
+      return "DVD - " + title + " - " + category + " - " + director + " - " + length + ": " + cost + " $";
   }
 }
