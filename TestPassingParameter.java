@@ -1,3 +1,4 @@
+
 public class TestPassingParameter {
   public static void main(String[] args) {
 
@@ -34,4 +35,9 @@ public class TestPassingParameter {
   public static void changeTitle(DigitalVideoDisc dvd, String title) {
       dvd.setTitle(title); 
   }
+
+
+public class TestPassingParameter {
+
+
 }
